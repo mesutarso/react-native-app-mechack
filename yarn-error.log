@@ -14,8 +14,8 @@ Platform:
   win32 x64
 
 Trace: 
-  Error: https://registry.yarnpkg.com/hermes-engine/-/hermes-engine-0.2.1.tgz: unexpected end of file
-      at Zlib.zlibOnError [as onerror] (zlib.js:170:17)
+  Error: getaddrinfo ENOTFOUND registry.yarnpkg.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:60:26)
 
 npm manifest: 
   {
