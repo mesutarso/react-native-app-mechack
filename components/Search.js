@@ -5,8 +5,8 @@ class Search extends Component{
     render(){
         return(
                 <View style={styles.container}>
-                    <TextImput placeholder="rechercher le film"/>
-                    <Button title="recherche" onPress={()=>{}}/>
+                    <TextImput style={styles.textinput} placeholder="rechercher le film"/>
+                    <Button style={styles.button} title="recherche" onPress={()=>{}}/>
                 </View>
         )
     }
@@ -18,6 +18,16 @@ const styles = StyleSheet.create({
       alignItems: 'center',
       justifyContent: 'center',
     },
+    textinput : {
+        flex:1,
+        height:50,
+        borderWidth:1,
+        borderColor:black,
+        padding: 5
+    },
+    button:{
+        backgroundColor:blue
+    }
   });
 
 export default Search
