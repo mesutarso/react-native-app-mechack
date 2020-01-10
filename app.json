@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "tutoapp",
+    "name": "banque des sqngs",
     "slug": "tutu-project",
     "privacy": "public",
     "sdkVersion": "36.0.0",
@@ -25,6 +25,7 @@
     ],
     "ios": {
       "supportsTablet": true
-    }
+    },
+    "description": ""
   }
 }
